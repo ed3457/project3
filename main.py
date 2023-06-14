@@ -2,7 +2,7 @@ from flask import Flask
 app = Flask(__name__)
 @app.route('/hello/', methods=['GET', 'POST'])
 def welcome():
-    return "Hello World!"
+    return "Welcome to MS class!"
 @app.route('/joke/', methods=['GET', 'POST'])
 def joke():
     return "Hello World 2!"
