@@ -5,6 +5,6 @@ def welcome():
     return "Hello World!"
 @app.route('/joke/', methods=['GET', 'POST'])
 def joke():
-    return "Hello World!"
+    return "Hello World 2!"
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=6000)
+    app.run(host='0.0.0.0', port=8000)
